@@ -16,7 +16,9 @@
     "leopolp/mlt-frame-dcm",
     "leopolp/my-optuna-ds"
   ],
-  "kernel_sources": [],
+  "kernel_sources": [
+    "metric/mean-weighted-columnwise-aucroc"
+  ],
   "competition_sources": [
     "rsna-intracranial-aneurysm-detection"
   ],
