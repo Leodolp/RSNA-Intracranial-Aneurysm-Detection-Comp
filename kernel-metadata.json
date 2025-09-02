@@ -6,11 +6,16 @@
   "language": "python",
   "kernel_type": "notebook",
   "is_private": true,
-  "enable_gpu": false,
+  "enable_gpu": true,
   "enable_tpu": false,
   "enable_internet": true,
-  "keywords": [],
-  "dataset_sources": [],
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "leopolp/mlt-frame-dcm",
+    "leopolp/my-optuna-ds"
+  ],
   "kernel_sources": [],
   "competition_sources": [
     "rsna-intracranial-aneurysm-detection"
